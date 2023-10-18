@@ -1,0 +1,50 @@
+<!DOCTYPE html
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="/calculator.js"></script>
+</head>
+<body>
+
+    <header>
+        Calculadora de Offset - QCS 4.0        
+    </header>
+
+    <div id="container">
+
+
+        <form id="form1">
+
+            Selecione o sensor:
+            <select id="sensorSelected">
+                <option value=""></option>
+                <option value="Gramatura">Gramatura</option>
+                <option value="Cinza">Cinza</option>
+                <option value="Umidade">Umidade</option>
+                <option value="Espessura">Espessura</option>
+                <optgroup label="Cor">                
+                    <option value="CorL">L</option>
+                    <option value="CorA">A</option>
+                    <option value="CorB">B</option>
+                </optgroup>
+            </select>
+
+            
+        </form>
+            
+        <div>            
+            Sensor Selecionado: <span id="sensorLabel"></span>
+            <div id="containerFormula"></div>            
+        </div>
+    </div>
+
+    <footer>
+        Desenvolvido por: Luciano Lucero
+    </footer>
+
+    
+</body>
+</html>
