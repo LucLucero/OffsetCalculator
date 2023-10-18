@@ -3,6 +3,7 @@ var nc;
 var erro;
 var ac;
 
+
 try {
   const form = document.getElementById("form1");
   form.addEventListener("change", calcOffSet);
